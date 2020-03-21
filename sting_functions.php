@@ -122,6 +122,7 @@
 	# gzcompress()
 	# Compress a string
 
+	/*
 	$string = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -135,8 +136,14 @@
 
 	$original =gzuncompress($compressed);
 	echo $original; //rodys originalu nesuspausta teiksta, kitamaji galima naudoti kitur
+	
+	*/
 
+	# stristr()
+	# Find the first occurrence of "world" inside "Hello world!", and return the rest of the string:
 
+	echo stristr("Hello world!","WORLD"); //return world
+	?>
 
 
 
